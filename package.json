@@ -1,0 +1,32 @@
+{
+  "name": "easy-react-google-maps",
+  "version": "1.0.0",
+  "description": "A react component for display markers and clusters on google maps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hongming Li",
+  "homepage": "https://github.com/lhmcn/easy-react-google-maps",
+  "keywords": [
+    "react",
+    "reactjs",
+    "google",
+    "map",
+    "maps",
+    "cluster",
+    "marker"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhmcn/easy-react-google-maps.git"
+  },
+  "dependencies": {
+    "google-map-react": "^1"
+  },
+  "devDependencies": {
+    "react": "^16",
+    "react-dom": "^16"
+  }
+}
