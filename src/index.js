@@ -76,10 +76,10 @@ class Index extends Component {
       >
         {this.state.clusters.map((cluster, index) =>
           cluster.items.length === 1 ?
-            <this.markerComponent key={index} lat={cluster.items[0].lat} lng={cluster.items[0].lng}/>
+            <this.markerComponent key={index} lat={cluster.items[0].lat} lng={cluster.items[0].lng} items={cluster.items}/>
             :
             <this.clusterComponent key={index} lat={cluster.lat} lng={cluster.lng}
-                          num={cluster.items.length} limit={this.props.clusterLimit || DEFAULT_CLUSTER_LIMIT}/>,
+                                   items={cluster.items} limit={this.props.clusterLimit || DEFAULT_CLUSTER_LIMIT}/>,
         )}
       </Map>
     );

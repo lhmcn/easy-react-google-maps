@@ -17,9 +17,9 @@ const style = {
   backgroundSize: 'auto',
 };
 
-const Cluster = ({ num, limit = 99 }) => (
+const Cluster = ({ items, limit = 99 }) => (
   <div style={style}>
-    {num > limit ? `${limit}+` : num}
+    {items.length > limit ? `${limit}+` : items.length}
   </div>
 );
 
