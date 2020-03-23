@@ -1,6 +1,6 @@
 {
   "name": "easy-react-google-maps",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A react component for display markers and clusters on google maps.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
